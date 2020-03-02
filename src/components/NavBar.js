@@ -10,9 +10,9 @@ function NavBar(props){
     <nav className={`navbar ${colors[props.color]}`}>
       <div className='container-fluid'>
         <div className='navbar-header'>
-          <a className='navbar-brand'>
+          {/* <a href='' className='navbar-brand'> */}
             { props.title }
-          </a>
+          {/* </a> */}
         </div>
       </div>
     </nav>
@@ -20,3 +20,4 @@ function NavBar(props){
 }
 
 export default NavBar
+
